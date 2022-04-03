@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Update {% endblock %}
+
+{% block container %}
+<h1>Update a contact</h1>
+<form action="{{url_for('contacts.update', id=contact.id)}}" method="POST">
+  <input type="text" name="fullname" value="{{contact.fullname}}" placeholder="Enter the full name"><br>
+  <input type="email" name="email" value="{{contact.email}}" placeholder="Enter an email"><br>
+  <input type="text" name="phone" value="{{contact.phone}}" placeholder="Enter a telephone number"><br>
+  <input type="submit"><br>
+</form>
+{% endblock %}
