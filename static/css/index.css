@@ -41,6 +41,7 @@ nav {
 
 .section-title {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 input[type=text],
@@ -66,4 +67,70 @@ input[type=submit] {
   margin-top: 20px;
   border-radius: 5px;
   border: none;
+}
+
+#contacts {
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  /* text-align: center; */
+  border-radius: 5px;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.contact h4,
+p,
+a {
+  margin-bottom: 5px;
+}
+
+/* BACK BUTTOM */
+.btn-back {
+  border: 1px solid #222222;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  /* display: block; */
+  text-align: center;
+}
+
+#btn-back {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  #form {
+    width: 90%;
+  }
+
+  #contacts {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  #form {
+    width: 100%;
+  }
+
+  #contacts {
+    width: 100%;
+  }
 }
