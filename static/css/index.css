@@ -2,7 +2,42 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Cascadia Code', sans-serif;
 }
+
+/* ESTILO PARA flash */
+
+.flash {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #cccccc;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.flash p {
+  float: left;
+}
+
+/* .btn-close {
+  float: right;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  line-height: 25px;
+}
+
+.btn-close:hover {
+  font-size: 15px;
+}
+
+.close {
+  display: none;
+} */
 
 /*ESTILOS PARA base.html*/
 

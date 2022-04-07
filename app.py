@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 # , template_folder='src/templates
 app = Flask(__name__)
-
+app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 #
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:my_secret@localhost/contacts_db'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:my_secret@localhost/contacts_app'
